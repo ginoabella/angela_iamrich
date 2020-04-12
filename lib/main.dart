@@ -5,13 +5,12 @@ void main() => runApp(
         home: Scaffold(
           backgroundColor: Colors.blueGrey,
           appBar: AppBar(
-            title: Center(child: Text('I Am rich')),
+            title: Text('I Am rich'),
             backgroundColor: Colors.blueGrey[900],
           ),
           body: Center(
             child: Image(
-              image: NetworkImage(
-                  'https://www.bigstockphoto.com/images/homepage/module-6.jpg'),
+              image: AssetImage('images/diamond.png'),
             ),
           ),
         ),
